@@ -14,7 +14,6 @@ body {
     height: 100vh; 
 }
 
-/* Button styles */
 .dayNight {
     position: absolute;
     top: 20px;
@@ -25,7 +24,6 @@ body {
     cursor: pointer;
 }
 
-/* Page One styles */
 .pageOne {
     width: 80%;
     max-width: 600px;
@@ -54,11 +52,9 @@ body {
     cursor: pointer;
 }
 
- /* Page Two styles */
 .pageTwo {
-    display: none;
-    width: 80%;
-    max-width: 600px;
+    align-content: center;
+    
 }
 
 .pageTwo button {
@@ -72,7 +68,7 @@ body {
 }
 
 .blogs {
-    background-color: #fff;
+    background-color: #991313;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -80,8 +76,33 @@ body {
     margin: 5px;
 }
 
-/* Hide class */
 .hide {
     display: none;
 }
 
+.blogs {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.here-title {
+    text-align: center;
+    margin-bottom: 20px;
+}

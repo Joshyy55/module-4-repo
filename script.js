@@ -1,25 +1,25 @@
 
-function handleSubmit() {
-    var user = document.getElementById("username").value;
-    var title = document.getElementById("title").value;
-    var cont = document.getElementById("content").value;
+// function handleSubmit() {
+//     var user = document.getElementById("username").value;
+//     var title = document.getElementById("title").value;
+//     var cont = document.getElementById("content").value;
 
-    if (user && title && cont) {
-        var pageOne = document.querySelector(".pageOne");
-        pageOne.classList.add("hide");
-        var pageTwo = document.querySelector(".pageTwo");
-        pageTwo.classList.remove("hide");
+//     if (user && title && cont) {
+//         var pageOne = document.querySelector(".pageOne");
+//         pageOne.classList.add("hide");
+//         var pageTwo = document.querySelector(".pageTwo");
+//         pageTwo.classList.remove("hide");
 
-        var blog = document.createElement("div");
-        blog.setAttribute("class", "blog");
-        var text = document.createTextNode(`${title} ${user}: ${cont}`);
-        blog.appendChild(text);
-        var blogList = document.querySelector(".blogs");
-        blogList.appendChild(blog);
-    } else {
-        alert("Please fill out all on this page pretty please.");
-    }
-}
+//         var blog = document.createElement("div");
+//         blog.setAttribute("class", "blog");
+//         var text = document.createTextNode(`${title} ${user}: ${cont}`);
+//         blog.appendChild(text);
+//         var blogList = document.querySelector(".blogs");
+//         blogList.appendChild(blog);
+//     } else {
+//         alert("Please fill out all on this page pretty please.");
+//     }
+// }
 
 function handleBack() {
     var user = document.getElementById("username");
